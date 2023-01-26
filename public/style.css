@@ -1,0 +1,97 @@
+html, body, * {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: rgb(250, 251, 252);
+}
+
+.menu {
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+    background-color: #808080;     /* Ajout de la couleur d'arrière-plan */
+    justify-content: center     /* Alignements des liens dans le menu */
+}
+
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+}
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: #1ABC9C;    /* Couleur d'arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+    transition: all 1s ;          /* Ajout des effets de transition */
+}
+
+.menu a:hover {
+    background-color: darksalmon;
+}
+
+h1{
+    text-align: center; 
+    margin-top: 50px;  
+    margin-bottom: 80px; 
+}
+
+label, input{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    
+}
+
+label{
+    font-size: larger;
+}
+
+input{
+    margin-bottom: 50px;
+    margin-top: 5px;
+    height: 20px;
+}
+
+.bouton{
+    width: 100px;
+    height: 30px;
+    margin-left: 46%;
+}
+
+
+table{
+    width: 90%;
+    margin-left: 5%;
+}
+
+table{ 
+    border: 1px solid black; 
+    border-collapse: collapse;
+}
+
+th{
+    border: 2px solid black;
+    padding: 15px;
+    font-size:larger;
+    background-color: darksalmon;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.supp{
+    margin-top: 0;
+    margin-bottom: 0;
+}
